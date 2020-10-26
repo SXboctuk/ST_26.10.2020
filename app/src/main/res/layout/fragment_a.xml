@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FragmentA"
+        android:textSize="22dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimalA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/buttonA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Дальше"
+        android:layout_below="@id/editTextNumberDecimalA"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
